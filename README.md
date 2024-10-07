@@ -1,5 +1,6 @@
 # EXP1: 4 Bit Adder functionality verification
-# Aim: To write a verilog code for 4bit adder and verify the functionality using Test bench.
+# Aim: 
+To write a verilog code for 4bit adder and verify the functionality using Test bench.
 
  Write Verilog Code
 
@@ -16,14 +17,18 @@ To design a 1-bit full adder, the first step is to create a truth table that rep
 ![image](https://github.com/user-attachments/assets/ce099a52-d3d1-4c26-b36c-ac58ecef5eac)
 
 Here’s the truth table for a 1-bit full adder:
+
 ![image](https://github.com/user-attachments/assets/e577e0d9-1a1a-49f4-bbf6-0efd13329d32)
 # Fig 1 : Diagram and truth table of full adder
 # Logic Expressions:
 1.Sum (S): S=A⊕B⊕CIN
    Where ⊕ represents XOR.
+   
 2.Carry out (COUT):COUT=(A&B) 
+
 3.Carry in(CIN): (A^B)
 ![image](https://github.com/user-attachments/assets/e79e7281-180b-40cb-99b2-46dbedbb9aca)
+
 # Fig 2:Diagram of 4 Bit Adder
 
 # Creating Source Codes
